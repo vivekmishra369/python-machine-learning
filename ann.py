@@ -135,7 +135,7 @@ class backPropagationNetwork:
 
 if __name__ == "__main__":
     
-    print ("welcome to neural network")
+    print ("welcome to neural network module")
     data_file=raw_input("please mention the name of your training set file\n")
     
     d=np.genfromtxt(str(data_file),delimiter=',')
